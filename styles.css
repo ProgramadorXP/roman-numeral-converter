@@ -68,14 +68,18 @@ body {
 .hidden {
     display: none;
 }
-.output__text {
+.output {
+    color: #fff;
+    border: 3px solid #fff;
+    background-color: #54545f;
     text-align: center;
     font-size: 1.5em;
-    padding: 15px 20px;
-    color: #fff;
+    line-height: 1.5em;
 }
-.error {
+.output-error {
     color: rgb(138, 2, 2);
+    border: 3px solid rgb(138, 2, 2);
+    background-color: rgb(248, 134, 134);
 }
 @media (min-width: 576px) {
     .container {

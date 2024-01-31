@@ -10,13 +10,13 @@
     <div class="container">
         <img class="container__img" src="https://upload.wikimedia.org/wikipedia/commons/3/39/FreeCodeCamp_logo.png" alt="FreeCodeCamp Logo">
         <h1 class="container__title">Roman Numeral Converter</h1>
-        <form action="" class="form">
+        <form action="" id="form" class="form">
             <label for="number" class="form__label">Enter a Number:</label>
-            <input type="number" class="form__input" id="number" required>
-            <button type="submit" class="form__button" id="convert-btn">Convert</button>
+            <input type="number" id="number" class="form__input" required>
+            <button type="submit" id="convert-btn" class="form__button">Convert</button>
         </form>
-        <div class="output hidden" id="output">
-            <!--Here It'll be the paragraph-->
+        <div id="output" class="output hidden">
+            <!--Here It's going the text-->
         </div>
     </div>
     <script src="./script.js"></script>
